@@ -6,7 +6,7 @@ function Home(){
         <div className="header-carousel-item">
             <img src="img/carousel-1.jpg" className="img-fluid w-100" alt="Image"/>
             <div className="carousel-caption">
-                <div className="container align-items-center py-4">
+                <div className="container align-items-center py-4" style={{ textAlign: "justify" }}>
                     <div className="row g-5 align-items-center">
                         <div className="col-xl-7 fadeInLeft animated" data-animation="fadeInLeft" data-delay="1s" style={{animationDelay:'1s'}}>
                             <div className="text-start">
@@ -59,7 +59,7 @@ function Home(){
             </div>
         </div>
         <div class="container-fluid feature py-5">
-            <div class="container py-5">
+            <div class="container py-5" style={{ textAlign: "justify" }}>
                 <div class="row g-4">
                     <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="feature-item">
@@ -107,7 +107,7 @@ function Home(){
             </div>
         </div>
         <div class="container-fluid about pb-5">
-            <div class="container pb-5">
+            <div class="container pb-5" style={{ textAlign: "justify" }}>
                 <div class="row g-5">
                     <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
                         <div>
@@ -201,7 +201,7 @@ function Home(){
             </div>
         </div>
         <div class="container-fluid service py-5">
-            <div class="container service-section py-5">
+            <div class="container service-section py-5" style={{ textAlign: "justify" }}>
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style={{maxWidth:'800px'}}>
                     <h4 class="text-primary">Our Service</h4>
                     <h1 class="display-5 text-white mb-4">Explore Waterland Park service</h1>
@@ -271,7 +271,7 @@ function Home(){
             </div>
         </div>
         <div class="container-fluid py-5">
-            <div class="container py-5">
+            <div class="container py-5"style={{ textAlign: "justify" }}>
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-12 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="packages-item h-100">
@@ -323,7 +323,7 @@ function Home(){
             </div>
         </div>
         <div class="container-fluid attractions py-5">
-            <div class="container attractions-section py-5">
+            <div class="container attractions-section py-5" style={{ textAlign: "justify" }}>
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style={{maxWidth:'800px'}}>
                     <h4 class="text-primary">Attractions</h4>
                     <h1 class="display-5 text-white mb-4">Explore WaterLand Park Attractions</h1>
@@ -357,7 +357,7 @@ function Home(){
         </div>
 
         <div class="container-fluid gallery pb-5">
-            <div class="container pb-5">
+            <div class="container pb-5" style={{ textAlign: "justify" }}>
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style={{maxWidth: '800px'}}>
                     <h4 class="text-primary">Our Gallery</h4>
                     <h1 class="display-5 mb-4">Captured Moments In Waterland</h1>
@@ -417,7 +417,7 @@ function Home(){
             </div>
         </div>
         <div class="container-fluid blog pb-5">
-            <div class="container pb-5">
+            <div class="container pb-5" style={{ textAlign: "justify" }}>
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style={{maxWidth:'800px'}}>
                     <h4 class="text-primary">Our Blog</h4>
                     <h1 class="display-5 mb-4">Latest Blog & Articles</h1>
@@ -480,7 +480,7 @@ function Home(){
             </div>
         </div>
         <div class="container-fluid team pb-5">
-            <div class="container pb-5">
+            <div class="container pb-5" style={{ textAlign: "justify" }}>
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style={{maxWidth:'800px'}}>
                     <h4 class="text-primary">Meet Our Team</h4>
                     <h1 class="display-5 mb-4">Our Waterland Park Dedicated Team Member</h1>
@@ -561,7 +561,7 @@ function Home(){
             </div>
         </div>
         <div class="container-fluid testimonial py-5">
-            <div class="container py-5">
+            <div class="container py-5" style={{ textAlign: "justify" }}>
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style={{maxWidth:'800px'}}>
                     <h4 class="text-primary">Testimonials</h4>
                     <h1 class="display-5 text-white mb-4">Our Clients Riviews</h1>
