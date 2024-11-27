@@ -33,40 +33,37 @@ function Header() {
             <a href="/services" className="nav-item nav-link">
               Service
             </a>
-            <a href="blog.html" className="nav-item nav-link">
+            <a href="/blog" className="nav-item nav-link">
               Blog
             </a>
 
             <div className="nav-item dropdown">
               <a
-                href="#!"
+                href="#"
                 className="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
               >
                 Pages
               </a>
               <div className="dropdown-menu m-0">
-                <a href="feature.html" className="dropdown-item">
+                <a href="/feature" className="dropdown-item">
                   Our Feature
                 </a>
-                <a href="gallery.html" className="dropdown-item">
+                <a href="/gallery" className="dropdown-item"> 
                   Our Gallery
                 </a>
-                <a href="attraction.html" className="dropdown-item">
+                <a href="/attractions" className="dropdown-item">
                   Attractions
                 </a>
-                <a href="package.html" className="dropdown-item">
+                <a href="/package" className="dropdown-item">
                   Ticket Packages
                 </a>
-                <a href="team.html" className="dropdown-item">
+                <a href="/team" className="dropdown-item">
                   Our Team
-                </a>
-                <a href="testimonial.html" className="dropdown-item">
-                  Testimonial
-                </a>
+                </a>             
               </div>
             </div>
-            <a href="contact.html" className="nav-item nav-link">
+            <a href="/contact" className="nav-item nav-link">
               Contact
             </a>
           </div>

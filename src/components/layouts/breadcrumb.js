@@ -18,10 +18,31 @@ function Breadcrumb() {
         case '/services':
             breadcrumbName = 'Services';
             break;
+        case '/blog':
+                breadcrumbName = 'Blog';
+                break;
+        case '/feature':
+                    breadcrumbName = 'Feature';
+                break;
+        case '/gallery':
+                    breadcrumbName = 'Gallery';
+                break;
+        case '/attractions':
+                    breadcrumbName = 'Attractions';
+                break;
+        case '/package':
+                    breadcrumbName = 'Ticket Packages';
+                break;
+        case '/team':
+                    breadcrumbName = 'Team';
+                break;
+
+
         // Thêm các case khác nếu cần
         default:
             breadcrumbName = 'Page'; // Fallback
             break;
+           
     }
 
     return (

@@ -6,6 +6,13 @@ import Home from './components/pages/home';
 import Breadcrumb from './components/layouts/breadcrumb';
 import About from './components/pages/about';
 import Service from './components/pages/services';
+import Blog from './components/pages/blog';
+import Contact from './components/pages/contact';
+import Feature from './components/pages/feature';
+import Gallery from './components/pages/gallery';
+import Attractions from './components/pages/attractions';
+import TicketPackages from './components/pages/ticketpackages';
+import Team from './components/pages/team';
 
 
 function App() {
@@ -22,7 +29,13 @@ function App() {
             <Route path="/" element={<Home/>} />
             <Route path="/about" element={<About/>} />  
             <Route path="/services" element={<Service/>} />
- 
+            <Route path="/blog" element={<Blog/>} />
+            <Route path="/contact" element={<Contact/>} />
+            <Route path="/feature" element={<Feature/>} />
+            <Route path="/gallery" element={<Gallery/>} />
+            <Route path="/attractions" element={<Attractions/>} />
+            <Route path="/package" element={<TicketPackages/>} />
+            <Route path="/team" element={<Team/>} />
 
           </Routes>
           
