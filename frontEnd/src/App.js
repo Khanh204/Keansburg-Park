@@ -1,4 +1,4 @@
-import { useLocation, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, useLocation, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Header from './components/layouts/header';
 import Footer from './components/layouts/footer';
@@ -13,7 +13,12 @@ import Gallery from './components/pages/gallery';
 import Attractions from './components/pages/attractions';
 import TicketPackages from './components/pages/ticketpackages';
 import Team from './components/pages/team';
-
+// import Login from './components/pages/auth/login';
+import Register from './components/pages/auth/register';
+import Admin from './components/admin/Admin';
+import PrivateRoute from './components/admin/PrivateRoute';
+import Login from './components/admin/Login';
+import Logout from './components/admin/Logout';
 
 function App() {
   const location = useLocation();
@@ -36,6 +41,17 @@ function App() {
           <Route path="/attractions" element={<Attractions />} />
           <Route path="/package" element={<TicketPackages />} />
           <Route path="/team" element={<Team />} />
+          {/* <Route path="/login" element={<Login />} /> */}
+          <Route path="/register" element={<Register />} />
+          <Route path="/admin" element={<Admin />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/logout" element={<Logout />} />
+
+          <Route path="/" element={<PrivateRoute />}>
+            <Route path="/admin" element={<Admin />} />
+            <Route path="/" element={<h2>Trang chủ</h2>} />
+          </Route>
+
 
         </Routes>
 
