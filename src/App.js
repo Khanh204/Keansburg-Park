@@ -13,7 +13,8 @@ import Gallery from './components/pages/gallery';
 import Attractions from './components/pages/attractions';
 import TicketPackages from './components/pages/ticketpackages';
 import Team from './components/pages/team';
-
+import Login from './components/pages/auth/login';
+import Register from './components/pages/auth/register';
 
 function App() {
   const location = useLocation();
@@ -36,6 +37,9 @@ function App() {
             <Route path="/attractions" element={<Attractions/>} />
             <Route path="/package" element={<TicketPackages/>} />
             <Route path="/team" element={<Team/>} />
+            <Route path="/login" element={<Login/>} />
+            <Route path="/register" element={<Register/>} />
+
 
           </Routes>
           

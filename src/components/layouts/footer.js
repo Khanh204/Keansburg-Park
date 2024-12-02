@@ -35,22 +35,22 @@ function Footer() {
           <div className="col-md-6 col-lg-6 col-xl-2">
             <div className="footer-item">
               <h4 className="text-white mb-4">Quick Links</h4>
-              <a href="#">
+              <a href="/about">
                 <i className="fas fa-angle-right me-2"></i> About Us
               </a>
-              <a href="#">
+              <a href="/feature">
                 <i className="fas fa-angle-right me-2"></i> Feature
               </a>
-              <a href="#">
+              <a href="/attractions">
                 <i className="fas fa-angle-right me-2"></i> Attractions
               </a>
-              <a href="#">
+              <a href="/package">
                 <i className="fas fa-angle-right me-2"></i> Tickets
               </a>
-              <a href="#">
+              <a href="/blog">
                 <i className="fas fa-angle-right me-2"></i> Blog
               </a>
-              <a href="#">
+              <a href="/contact">
                 <i className="fas fa-angle-right me-2"></i> Contact us
               </a>
             </div>
