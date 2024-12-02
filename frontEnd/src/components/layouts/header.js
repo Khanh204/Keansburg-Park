@@ -82,10 +82,10 @@ function Header() {
             </a>
           </div>
           <a
-            href="#"
+            href="/login"
             className="btn btn-primary rounded-pill py-2 px-4 flex-shrink-0"
           >
-            Get Started
+           Login
           </a>
         </div>
       </nav>

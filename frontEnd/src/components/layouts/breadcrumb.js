@@ -36,6 +36,12 @@ function Breadcrumb() {
         case '/team':
                     breadcrumbName = 'Team';
                 break;
+        case '/login':
+                    breadcrumbName = 'Login';
+                break;
+        case '/register':
+                    breadcrumbName = 'Register';
+                break;
 
 
         // Thêm các case khác nếu cần

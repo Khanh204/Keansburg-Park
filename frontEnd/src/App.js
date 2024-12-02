@@ -1,4 +1,4 @@
-import {useLocation, Routes, Route } from 'react-router-dom';
+import { useLocation, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Header from './components/layouts/header';
 import Footer from './components/layouts/footer';
@@ -19,29 +19,29 @@ function App() {
   const location = useLocation();
   return (
 
-      <div className="App">
-        <div id="loader"></div>
-        <div className="main-wrapper">
-          <Header/>
-          <Breadcrumb currentLocation={location.pathname} />
-         
-          <Routes>
-            <Route path="/" element={<Home/>} />
-            <Route path="/about" element={<About/>} />  
-            <Route path="/services" element={<Service/>} />
-            <Route path="/blog" element={<Blog/>} />
-            <Route path="/contact" element={<Contact/>} />
-            <Route path="/feature" element={<Feature/>} />
-            <Route path="/gallery" element={<Gallery/>} />
-            <Route path="/attractions" element={<Attractions/>} />
-            <Route path="/package" element={<TicketPackages/>} />
-            <Route path="/team" element={<Team/>} />
+    <div className="App">
+      <div id="loader"></div>
+      <div className="main-wrapper">
+        <Header />
+        <Breadcrumb currentLocation={location.pathname} />
 
-          </Routes>
-          
-          <Footer/>
-        </div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Service />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/feature" element={<Feature />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/attractions" element={<Attractions />} />
+          <Route path="/package" element={<TicketPackages />} />
+          <Route path="/team" element={<Team />} />
+
+        </Routes>
+
+        <Footer />
       </div>
+    </div>
 
   );
 }
