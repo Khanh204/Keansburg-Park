@@ -18,7 +18,7 @@ function Contact(){
                                         </div>
                                         <div>
                                             <h4>Address</h4>
-                                            <p class="mb-0">123 Street New York.USA</p>
+                                            <p class="mb-0">8A Tôn Thất Thuyết</p>
                                         </div>
                                     </div>
                                 </div>
@@ -29,7 +29,7 @@ function Contact(){
                                         </div>
                                         <div>
                                             <h4>Mail Us</h4>
-                                            <p class="mb-0">info@example.com</p>
+                                            <p class="mb-0">prosv5sao@gmail.com</p>
                                         </div>
                                     </div>
                                 </div>
@@ -40,7 +40,7 @@ function Contact(){
                                         </div>
                                         <div>
                                             <h4>Telephone</h4>
-                                            <p class="mb-0">(+012) 3456 7890</p>
+                                            <p class="mb-0">0813237641</p>
                                         </div>
                                     </div>
                                 </div>
@@ -51,15 +51,15 @@ function Contact(){
                                         </div>
                                         <div>
                                             <h4>Yoursite@ex.com</h4>
-                                            <p class="mb-0">(+012) 3456 7890</p>
+                                            <p class="mb-0">0813237641</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="d-flex justify-content-around bg-light rounded p-4">
-                                        <a class="btn btn-xl-square btn-primary rounded-circle" href="#"><i class="fab fa-facebook-f"></i></a>
+                                        <a class="btn btn-xl-square btn-primary rounded-circle" href="https://www.facebook.com/nguyenkhanh454"><i class="fab fa-facebook-f"></i></a>
                                         <a class="btn btn-xl-square btn-primary rounded-circle" href="#"><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-xl-square btn-primary rounded-circle" href="#"><i class="fab fa-instagram"></i></a>
+                                        <a class="btn btn-xl-square btn-primary rounded-circle" href="https://www.instagram.com/khanh040504/"><i class="fab fa-instagram"></i></a>
                                         <a class="btn btn-xl-square btn-primary rounded-circle" href="#"><i class="fab fa-linkedin-in"></i></a>
                                     </div>
                                 </div>

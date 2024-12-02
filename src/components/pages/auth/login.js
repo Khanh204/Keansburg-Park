@@ -1,7 +1,7 @@
 function Login() {
     return (
         <div className="content top-space" 
-        style={{ height: '100vh', display: 'flex', alignItems: 'center', transform: 'translateY(-120px)'  }}>
+        style={{ height: '100vh', display: 'flex', alignItems: 'center', transform: 'translateY(-180px)'  }}>
        <div className="container-fluid" style={{ textAlign: 'justify' }}>
            <div className="account-content">
                <div className="row align-items-center justify-content-center">
@@ -20,16 +20,7 @@ function Login() {
                            </div>
                            <button className="btn btn-primary w-100 btn-lg login-btn" type="submit">Login</button>
                            <div className="login-or">
-                               <span className="or-line"></span>
-                               <span className="span-or">or</span>
-                           </div>
-                           <div className="row social-login">
-                               <div className="col-6">
-                                   <a href="#" className="btn btn-facebook w-100"><i className="fab fa-facebook-f me-1"></i> Login</a>
-                               </div>
-                               <div className="col-6">
-                                   <a href="#" className="btn btn-google w-100"><i className="fab fa-google me-1"></i> Login</a>
-                               </div>
+                               <span className="or-line"></span>                          
                            </div>
                            <div className="text-center dont-have">Don’t have an account? <a href="/register">Register</a></div>
                        </form>
