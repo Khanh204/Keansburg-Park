@@ -14,7 +14,8 @@ const Login = () => {
             const response = await axios.post('http://localhost:3001/login', { username, password });
             localStorage.setItem('token', response.data.token);
             alert('Đăng nhập thành công');
-            navigate('/admin');
+            navigate('/');
+            // navigate('/package');
         } catch (error) {
             alert('Đăng nhập thất bại');
         }

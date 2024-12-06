@@ -1,5 +1,5 @@
 import React from 'react';
-import React from './Logout';
+import Logout from './Logout';
 
 const Admin = () => {
     return (

@@ -1,7 +1,24 @@
 
-import React from "react";
+import React, { useState, useEffect } from 'react';
+function Header() {
+  useEffect(() => {
+    // Kiểm tra xem cookie có chứa token không
+    const checkTokenInCookie = () => {
+      const cookies = document.cookie; // Lấy tất cả cookie
+      const token = cookies.split(';').find(cookie => cookie.trim().startsWith('token='));
 
-function Header() { 
+      if (token) {
+        // Nếu tồn tại token trong cookie, đổi nút đăng nhập thành nút logout
+        document.getElementById('authButton').innerText = 'Logout';
+      } else {
+        // Nếu không có token trong cookie, hiển thị nút đăng nhập
+        document.getElementById('authButton').innerText = 'Login';
+      }
+    };
+
+    checkTokenInCookie();
+  }, []);
+
   return (
     <div className="container-fluid nav-bar sticky-top px-4 py-2 py-lg-0">
       <nav className="navbar navbar-expand-lg navbar-light">
@@ -49,7 +66,7 @@ function Header() {
                 <a href="/feature" className="dropdown-item">
                   Our Feature
                 </a>
-                <a href="/gallery" className="dropdown-item"> 
+                <a href="/gallery" className="dropdown-item">
                   Our Gallery
                 </a>
                 <a href="/attractions" className="dropdown-item">
@@ -60,7 +77,7 @@ function Header() {
                 </a>
                 <a href="/team" className="dropdown-item">
                   Our Team
-                </a>             
+                </a>
               </div>
             </div>
             <a href="/contact" className="nav-item nav-link">
@@ -81,15 +98,13 @@ function Header() {
               <i className="fab fa-linkedin-in"></i>
             </a>
           </div>
-          <a
-            href="/login"
-            className="btn btn-primary rounded-pill py-2 px-4 flex-shrink-0"
-          >
-           Login
-          </a>
+          {/* <a href="/login" className="btn btn-primary rounded-pill py-2 px-4 flex-shrink-0" >
+            Login
+          </a> */}
+          <a className="btn btn-primary rounded-pill py-2 px-4 flex-shrink-0" id="authButton" href="/login">Login</a>
         </div>
-      </nav>
-    </div>
+      </nav >
+    </div >
   );
 }
 

@@ -18,15 +18,15 @@ function Footer() {
               </p>
               <div className="d-flex align-items-center">
                 <i className="fas fa-map-marker-alt text-primary me-3"></i>
-                <p className="text-white mb-0">123 Street New York. USA</p>
+                <p className="text-white mb-0">8A Ton That Thuyet</p>
               </div>
               <div className="d-flex align-items-center">
                 <i className="fas fa-envelope text-primary me-3"></i>
-                <p className="text-white mb-0">info@example.com</p>
+                <p className="text-white mb-0">prosv5sao@gmail.com</p>
               </div>
               <div className="d-flex align-items-center">
                 <i className="fa fa-phone-alt text-primary me-3"></i>
-                <p className="text-white mb-0">(+012) 3456 7890</p>
+                <p className="text-white mb-0">0813237641</p>
               </div>
             </div>
           </div>

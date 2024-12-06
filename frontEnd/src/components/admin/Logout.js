@@ -7,11 +7,12 @@ const Logout = () => {
     const handleLogout = () => {
         localStorage.removeItem('token');
         alert('Đã đăng xuất');
-        navigate('/login');
+        // navigate('/login');
+        navigate('/');
     };
 
     return (
-        <button onClick={handleLogout}>Đăng xuất</button>
+        <button className="btn btn-primary rounded-pill py-2 px-4 flex-shrink-0" onClick={handleLogout}>Đăng xuất</button>
     );
 };
 

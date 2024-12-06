@@ -18,7 +18,7 @@ function Contact(){
                                         </div>
                                         <div>
                                             <h4>Address</h4>
-                                            <p class="mb-0">8A Tôn Thất Thuyết</p>
+                                            <p class="mb-0">8A Ton That Thuyet</p>
                                         </div>
                                     </div>
                                 </div>
