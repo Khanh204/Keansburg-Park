@@ -12,7 +12,7 @@ function Home(){
                             <div className="text-start">
                                 <h4 className="text-primary text-uppercase fw-bold mb-4">Welcome To WaterLand</h4>
                                 <h1 className="display-4 text-uppercase text-white mb-4">The Biggest Theme & Amusement Park</h1>
-                                <p className="mb-4 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy... 
+                                <p className="mb-4 fs-5">Experience endless fun and excitement at Waterland, the ultimate destination for thrill-seekers and families alike. Dive into our sparkling pools, slide through exhilarating water rides, and explore a world of entertainment designed for everyone to enjoy. 
                                 </p>
                                 <div className="d-flex flex-shrink-0">
                                     <a className="btn btn-primary rounded-pill text-white py-3 px-5" href="#">Our Packages</a>
@@ -63,7 +63,7 @@ function Home(){
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style={{maxWidth:'800px'}}>
                 <h4 class="text-primary">Our Features</h4>
                 <h1 class="display-5 mb-4">Explore Waterland Park Best Features</h1>
-                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                <p class="mb-0">Discover the exciting attractions and amenities that make Waterland Park the perfect destination for fun and adventure. From exhilarating slides and scenic river rides to the best pools for relaxation, there’s something here for everyone to enjoy. Let’s dive into the highlights that set us apart!
                 </p>
             </div>
             <div class="row g-4">
@@ -73,7 +73,7 @@ function Home(){
                         <div class="feature-content p-4">
                             <div class="feature-content-inner">
                                 <h4 class="text-white">Best Pools</h4>
-                                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis porro soluta voluptatum laborum mollitia blanditiis suscipit,
+                                <p class="text-white">Immerse yourself in the ultimate relaxation with our pristine pools, perfect for families and leisure seekers. Enjoy crystal-clear water and a serene atmosphere designed to make every swim unforgettable.
                                 </p>
                                 <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More <i class="fa fa-arrow-right ms-1"></i></a>
                             </div>
@@ -87,7 +87,7 @@ function Home(){
                         <div class="feature-content p-4">
                             <div class="feature-content-inner">
                                 <h4 class="text-white">Waterslides</h4>
-                                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis porro soluta voluptatum laborum mollitia blanditiis suscipit,
+                                <p class="text-white">Feel the rush of adrenaline as you glide down our thrilling waterslides, designed for fun lovers of all ages. From twisting turns to high-speed drops, there's a slide for everyone.
                                 </p>
                                 <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More <i class="fa fa-arrow-right ms-1"></i></a>
                             </div>
@@ -101,7 +101,7 @@ function Home(){
                         <div class="feature-content p-4">
                             <div class="feature-content-inner">
                                 <h4 class="text-white">River Rides</h4>
-                                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis porro soluta voluptatum laborum mollitia blanditiis suscipit,
+                                <p class="text-white">Take a relaxing journey on our scenic river rides. Drift through gentle currents and enjoy breathtaking views, ideal for unwinding with friends and family.
                                 </p>
                                 <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More <i class="fa fa-arrow-right ms-1"></i></a>
                             </div>
@@ -119,7 +119,7 @@ function Home(){
                         <div>
                             <h4 class="text-primary">About Waterland</h4>
                             <h1 class="display-5 mb-4">The Best Theme & Amusement Park For Your Family</h1>
-                            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis eligendi illum inventore maiores incidunt vero id. Est ipsam, distinctio veritatis earum inventore ab fugit officiis ut ullam, laudantium facere sapiente?
+                            <p class="mb-5">Waterland is the best theme and amusement park for families, offering 20 years of exceptional service and countless happy memories. Dive into a world of fun, relaxation, and excitement tailored to all ages.
                             </p>
                             <div class="row g-4">
                                 <div class="col-md-6">
@@ -127,7 +127,7 @@ function Home(){
                                         <div class="me-3"><i class="fas fa-glass-cheers fa-3x text-primary"></i></div>
                                         <div>
                                             <h4>Food & Drinks</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                            <p>Enjoy a variety of delicious food and refreshing drinks available throughout the park to keep you energized and refreshed.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -136,7 +136,7 @@ function Home(){
                                         <div class="me-3"><i class="fas fa-dot-circle fa-3x text-primary"></i></div>
                                         <div>
                                             <h4>Many Attractions</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                            <p>Explore an array of thrilling rides and attractions that promise endless fun and excitement for everyone in the family.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -145,7 +145,7 @@ function Home(){
                                         <div class="me-3"><i class="fas fa-hand-holding-usd fa-3x text-primary"></i></div>
                                         <div>
                                             <h4>Affordable Price</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                            <p>Experience premium entertainment at budget-friendly prices, making Waterland accessible to all.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -154,7 +154,7 @@ function Home(){
                                         <div class="me-3"><i class="fas fa-lock fa-3x text-primary"></i></div>
                                         <div>
                                             <h4>Safety Lockers</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                            <p>Keep your belongings safe and secure with our convenient locker facilities, so you can enjoy your day worry-free.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -211,7 +211,7 @@ function Home(){
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style={{maxWidth:'800px'}}>
                     <h4 class="text-primary">Our Service</h4>
                     <h1 class="display-5 text-white mb-4">Explore Waterland Park service</h1>
-                    <p class="mb-0 text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                    <p class="mb-0 text-white">Discover a world of aquatic adventures at Waterland Park! Cool off in our sparkling pools, soar down exhilarating water slides, and relax in our private cabanas. With something for everyone, our park is the perfect destination for a fun-filled day.
                     </p>
                 </div>
                 <div class="row g-4">
@@ -232,7 +232,7 @@ function Home(){
                                     <i class="fas fa-home fa-4x"></i>
                                 </div>
                                 <a href="#" class="h4 d-inline-block mb-3">Private Gazebo</a>
-                                <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet vel beatae numquam.
+                                <p class="mb-0">Rent a private gazebo for a secluded oasis amidst the excitement. Perfect for families or groups seeking a tranquil retreat.
                                 </p>
                             </div>
                         </div>
@@ -244,7 +244,7 @@ function Home(){
                                     <i class="fas fa-utensils fa-4x"></i>
                                 </div>
                                 <a href="#" class="h4 d-inline-block mb-3">Delicious Food</a>
-                                <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet vel beatae numquam.
+                                <p class="mb-0">Enjoy a variety of tasty treats and refreshing beverages at our on-site food court. From juicy burgers to cool ice cream, we have something to satisfy every craving.
                                 </p>
                             </div>
                         </div>
@@ -256,7 +256,7 @@ function Home(){
                                     <i class="fas fa-door-closed fa-4x"></i>
                                 </div>
                                 <a href="#" class="h4 d-inline-block mb-3">Safety Lockers</a>
-                                <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet vel beatae numquam.
+                                <p class="mb-0">Secure your belongings in our convenient safety lockers and enjoy peace of mind while you play.
                                 </p>
                             </div>
                         </div>
@@ -268,7 +268,7 @@ function Home(){
                                     <i class="fas fa-swimming-pool fa-4x"></i>
                                 </div>
                                 <a href="#" class="h4 d-inline-block mb-3">River Rides</a>
-                                <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet vel beatae numquam.
+                                <p class="mb-0">Float along our lazy river and soak up the sun. It's the perfect way to relax and unwind.
                                 </p>
                             </div>
                         </div>
@@ -283,7 +283,7 @@ function Home(){
                         <div class="packages-item h-100">
                             <h4 class="text-primary">Ticket Packages</h4>
                             <h1 class="display-5 mb-4">Choose The Best Packages For Your Family</h1>
-                            <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                            <p class="mb-4">Our family packages are designed to provide fun for everyone, from the youngest to the oldest. With a variety of exciting attractions and relaxing amenities, you're sure to create lasting memories.
                             </p>
                             <p><i class="fa fa-check text-primary me-2"></i>Best Waterpark in the world</p>
                             <p><i class="fa fa-check text-primary me-2"></i>Best Packages For Your Family</p>
@@ -296,7 +296,7 @@ function Home(){
                         <div class="pricing-item bg-dark rounded text-center p-5 h-100">
                             <div class="pb-4 border-bottom">
                                 <h2 class="mb-4 text-primary">Family Packages</h2>
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, dolorum!</p>
+                                <p class="mb-4">The Family Packages is perfect for a family outing. With this package, your family will experience the full range of activities at the water park, from thrilling rides to relaxing areas. Includes admission for the entire family, rental of two private cabanas, free drinks, and many other attractive offers.</p>
                                 <h2 class="mb-0 text-primary">$260,90<span class="text-body fs-5 fw-normal">/family</span></h2>
                             </div>
                             <div class="py-4">
@@ -313,7 +313,7 @@ function Home(){
                         <div class="pricing-item bg-primary rounded text-center p-5 h-100">
                             <div class="pb-4 border-bottom">
                                 <h2 class="text-dark mb-4">Basic Packages</h2>
-                                <p class="text-white mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, dolorum!</p>
+                                <p class="text-white mb-4">The Basic Package is an economical choice for those who want to enjoy a day of fun at the water park. The package includes admission, rental of a small cabana, free drinks, and many other benefits.</p>
                                 <h2 class="text-dark mb-0">$60,90<span class="text-white fs-5 fw-normal">/person</span></h2>
                             </div>
                             <div class="text-white py-4">
@@ -333,18 +333,20 @@ function Home(){
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style={{maxWidth:'800px'}}>
                     <h4 class="text-primary">Attractions</h4>
                     <h1 class="display-5 text-white mb-4">Explore WaterLand Park Attractions</h1>
-                    <p class="text-white mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                    <p class="text-white mb-0">Get ready to make a splash! Our water park is packed with thrilling slides, lazy rivers, wave pools, and more. Whether you're seeking adrenaline-pumping adventures or a relaxing day in the sun, we have something for everyone. Come experience the ultimate water playground!
                     </p>
                 </div>
                 <div class="owl-carousel attractions-carousel wow fadeInUp" data-wow-delay="0.1s">
                     <div class="attractions-item wow fadeInUp" data-wow-delay="0.2s">
-                        <img src="img/attraction-1.jpg" class="img-fluid rounded w-100" alt=""/>
+                    <img src="img/attraction-1.jpg" class="img-fluid rounded w-100" alt=""/>
                         <a href="#" class="attractions-name">Roller Coaster</a>
                     </div>
-                    <div class="attractions-item wow fadeInUp" data-wow-delay="0.4s">
-                        <img src="img/attraction-2.jpg" class="img-fluid rounded w-100" alt=""/>
-                        <a href="#" class="attractions-name">Carousel</a>
+                    <div class="owl-carousel attractions-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="attractions-item wow fadeInUp" data-wow-delay="0.2s">
+                    <img src="img/attraction-2.jpg" class="img-fluid rounded w-100" alt=""/>
+                         <a href="#" class="attractions-name">Carousel</a>
                     </div>
+                </div>
                     <div class="attractions-item wow fadeInUp" data-wow-delay="0.6s">
                         <img src="img/attraction-3.jpg" class="img-fluid rounded w-100" alt=""/>
                         <a href="#" class="attractions-name">Arcade Game</a>
@@ -367,7 +369,7 @@ function Home(){
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style={{maxWidth: '800px'}}>
                     <h4 class="text-primary">Our Gallery</h4>
                     <h1 class="display-5 mb-4">Captured Moments In Waterland</h1>
-                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                    <p class="mb-0">Capture unforgettable memories. Our gallery showcases the fun and excitement of Waterland Park. From thrilling water slides to relaxing poolside moments, relive the magic of your visit.
                     </p>
                 </div>
                 <div class="row g-4">
@@ -427,7 +429,7 @@ function Home(){
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style={{maxWidth:'800px'}}>
                     <h4 class="text-primary">Our Blog</h4>
                     <h1 class="display-5 mb-4">Latest Blog & Articles</h1>
-                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                    <p class="mb-0">Discover helpful tips and exciting news about Waterland Park. From fun activities and special events to insider tips for a perfect day out, our blog has it all.
                     </p>
                 </div>
                 <div class="row g-4">
@@ -438,11 +440,11 @@ function Home(){
                                     <img src="img/blog-2.jpg" class="img-fluid w-100 rounded-top" alt="Image"/>
                                 </a>
                                 <div class="blog-category py-2 px-4">Vacation</div>
-                                <div class="blog-date"><i class="fas fa-clock me-2"></i>August 19, 2025</div>
+                                <div class="blog-date"><i class="fas fa-clock me-2"></i>August 19, 2024</div>
                             </div>
                             <div class="blog-content p-4">
                                 <a href="#" class="h4 d-inline-block mb-4">Why Children Dont Like Getting Out Of The Water</a>
-                                <p class="mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam aspernatur nam quidem porro sapiente, neque a quibusdam....
+                                <p class="mb-4">Discover why children are so reluctant to leave the water and how you can make transitioning easier for them. Learn about their love for swimming and playing in water and some tips to handle this situation.
                                 </p>
                                 <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More <i class="fas fa-arrow-right ms-2"></i></a>
                             </div>
@@ -455,11 +457,11 @@ function Home(){
                                     <img src="img/blog-3.jpg" class="img-fluid w-100 rounded-top" alt="Image"/>
                                 </a>
                                 <div class="blog-category py-2 px-4">Insight</div>
-                                <div class="blog-date"><i class="fas fa-clock me-2"></i>August 19, 2025</div>
+                                <div class="blog-date"><i class="fas fa-clock me-2"></i>August 19, 2024</div>
                             </div>
                             <div class="blog-content p-4">
                                 <a href="#" class="h4 d-inline-block mb-4">5 Ways To Enjoy Waterland This Spring Break</a>
-                                <p class="mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam aspernatur nam quidem porro sapiente, neque a quibusdam....
+                                <p class="mb-4">Explore the best ways to enjoy Waterland this spring break! From thrilling water rides to relaxing poolside cabanas, find out how to make the most of your visit.
                                 </p>
                                 <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More <i class="fas fa-arrow-right ms-2"></i></a>
                             </div>
@@ -472,11 +474,11 @@ function Home(){
                                     <img src="img/blog-1.jpg" class="img-fluid w-100 rounded-top" alt="Image"/>
                                 </a>
                                 <div class="blog-category py-2 px-4">Insight</div>
-                                <div class="blog-date"><i class="fas fa-clock me-2"></i>August 19, 2025</div>
+                                <div class="blog-date"><i class="fas fa-clock me-2"></i>August 19, 2024</div>
                             </div>
                             <div class="blog-content p-4">
                                 <a href="#" class="h4 d-inline-block mb-4">3 Tips for Your Family Spring Break at Amusement Park</a>
-                                <p class="mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam aspernatur nam quidem porro sapiente, neque a quibusdam....
+                                <p class="mb-4">Planning a family spring break at an amusement park? Here are three essential tips to ensure everyone has a fun and memorable experience. From ride planning to meal breaks, get ready for a fantastic trip.
                                 </p>
                                 <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More <i class="fas fa-arrow-right ms-2"></i></a>
                             </div>
@@ -512,7 +514,7 @@ function Home(){
                                     <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-linkedin-in"></i></a>
                                     <a class="btn btn-primary btn-sm-square rounded-circle me-0" href=""><i class="fab fa-instagram"></i></a>
                                 </div>
-                                <p class="text-center mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, quibusdam eveniet itaque provident sequi deserunt.
+                                <p class="text-center mb-0">David James is our lead lifeguard and water safety expert. With over 10 years of experience, David ensures the safety and well-being of all our visitors. When he's not on duty, he loves teaching swimming lessons and organizing community water safety workshops.
                                 </p>
                             </div>
                         </div>
@@ -535,7 +537,7 @@ function Home(){
                                     <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-linkedin-in"></i></a>
                                     <a class="btn btn-primary btn-sm-square rounded-circle me-0" href=""><i class="fab fa-instagram"></i></a>
                                 </div>
-                                <p class="text-center mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, quibusdam eveniet itaque provident sequi deserunt.
+                                <p class="text-center mb-0">William John is our operations manager, responsible for the smooth running of the park's daily activities. His passion for customer service and efficiency keeps our guests happy and our facilities in top shape. Outside work, William enjoys kayaking and exploring new adventure sports.
                                 </p>
                             </div>
                         </div>
@@ -558,7 +560,7 @@ function Home(){
                                     <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-linkedin-in"></i></a>
                                     <a class="btn btn-primary btn-sm-square rounded-circle me-0" href=""><i class="fab fa-instagram"></i></a>
                                 </div>
-                                <p class="text-center mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, quibusdam eveniet itaque provident sequi deserunt.
+                                <p class="text-center mb-0">Michael John is our head of maintenance, making sure all attractions and facilities are in pristine condition. His expertise in engineering and love for waterparks make him an invaluable part of our team. Michael is also an avid scuba diver and enjoys spending time underwater.
                                 </p>
                             </div>
                         </div>

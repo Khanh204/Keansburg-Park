@@ -14,7 +14,8 @@ import Attractions from './components/pages/attractions';
 import TicketPackages from './components/pages/ticketpackages';
 import Team from './components/pages/team';
 import Login from './components/pages/auth/login';
-import Logout from './components/pages/auth/logout';
+
+// import Logout from './components/pages/auth/logout';
 import Register from './components/pages/auth/register';
 
 function App() {
@@ -40,7 +41,9 @@ function App() {
           <Route path="/team" element={<Team />} />
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/logout" element={<Logout />} />
+          
+
+          {/* <Route path="/logout" element={<Logout />} /> */}
         </Routes>
 
         <Footer />

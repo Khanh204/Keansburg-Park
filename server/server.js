@@ -22,7 +22,7 @@ const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: '',
-    database: 'login_system'
+    database: 'keansburgpark'
 });
 
 app.post("/register", (req, res) => {
