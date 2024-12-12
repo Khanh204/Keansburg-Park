@@ -9,7 +9,7 @@ function Header() {
 
       if (token) {
         // Nếu tồn tại token trong cookie, đổi nút đăng nhập thành nút logout
-        document.getElementById('authButton').innerText = 'Logout';
+        document.getElementById('authButton').innerText = 'Log out';
       } else {
         // Nếu không có token trong cookie, hiển thị nút đăng nhập
         document.getElementById('authButton').innerText = 'Login';
