@@ -26,38 +26,39 @@ const db = mysql.createConnection({
 });
 
 app.post("/register", (req, res) => {
-    const sql = "INSERT INTO users (`username`, `password`) VALUES (?)";
+    const sql = "INSERT INTO users (`username`,`email`, `password`) VALUES (?)";
     bcrypt.hash(req.body.password.toString(), salt, (err, hash) => {
-        if(err) return res.json({Error: "Erros for hashing password"});
+        if (err) return res.json({ Error: "Erros for hashing password" });
         const values = [
             req.body.username,
+            req.body.email,
             hash
         ]
-        db.query(sql, [values], (err, result) =>{
-            if(err) return res.json({Error: "Inserting data error in server"});
-            return res.json({Status: "Success"});
+        db.query(sql, [values], (err, result) => {
+            if (err) return res.json({ Error: "Inserting data error in server" });
+            return res.json({ Status: "Success" });
         })
     })
 });
 
 app.post("/login", (req, res) => {
-    const sql = "SELECT * FROM users WHERE username = ?";
-    db.query(sql, [req.body.username], (err, data) => {
-        if(err) return res.json({Error: "Login error in server"});
-        if(data.length > 0){
+    const sql = "SELECT * FROM users WHERE email = ?";
+    db.query(sql, [req.body.email], (err, data) => {
+        if (err) return res.json({ Error: "Login error in server" });
+        if (data.length > 0) {
             bcrypt.compare(req.body.password.toString(), data[0].password, (err, response) => {
-                if(err) return res.json({Error: "Login error in server"});
-                if(response){
-                    const name = data[0].username;
-                    const token = jwt.sign({name}, "jwt-secret-key", {expiresIn: '1d'});
+                if (err) return res.json({ Error: "Login error in server" });
+                if (response) {
+                    const email = data[0].email;
+                    const token = jwt.sign({ email }, "jwt-secret-key", { expiresIn: '1d' });
                     res.cookie('token', token);
-                    return res.json({Status: "Success"});
-                }else{
-                    return res.json({Error: "Password not matched"});
+                    return res.json({ Status: "Success" });
+                } else {
+                    return res.json({ Error: "Password not matched" });
                 }
             })
-        }else {
-            return res.json({Error: "No user existed"});
+        } else {
+            return res.json({ Error: "No user existed" });
         }
     });
 });

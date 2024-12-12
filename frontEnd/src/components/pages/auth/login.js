@@ -5,25 +5,52 @@ import axios from 'axios';
 
 function Login() {
     const [values, setValues] = useState({
-        username: '',
-        // email: '',
+        email: '',
         password: ''
     });
+
+    const [errors, setErrors] = useState({});
+
+    const validateForm = () => {
+        let errors = {};
+
+
+        if (!values.email) {
+            errors.email = 'Email is required';
+        } else if (!/\S+@\S+\.\S+/.test(values.email)) {
+            errors.email = 'Email is invalid';
+        } else {
+            delete errors.email;
+        }
+
+        if (!values.password) {
+            errors.password = 'Password is required';
+        } else {
+            delete errors.password;
+        }
+
+        setErrors(errors);
+        return Object.keys(errors).length === 0;
+    };
 
     const navigate = useNavigate();
     axios.defaults.withCredentials = true;
 
     const handleLogin = (event) => {
-        // event.preventDefault();
-        axios.post("http://localhost:3333/login", values)
-            .then(res => {
-                if (res.data.Status === "Success") {
-                    alert("Login Successfully!");
-                    navigate("/");
-                } else {
-                    alert(res.data.Error);
-                }
-            })
+        if (validateForm()) {
+            axios.post("http://localhost:3333/login", values)
+                .then(res => {
+                    if (res.data.Status === "Success") {
+                        alert("Login Successfully!");
+                        navigate("/");
+                    } else {
+                        alert(res.data.Error);
+                    }
+                })
+        } else {
+            alert("Form is invalid");
+        }
+
     };
 
     const handleKeyPress = (event) => {
@@ -41,11 +68,9 @@ function Login() {
                         <div className="col-md-6 login-right" style={{ marginTop: '-10px' }}>
                             <form method="post">
                                 <div className="mb-3 form-focus">
-                                    <label className="focus-label">User Id</label>
-                                    <input onChange={e => setValues({ ...values, username: e.target.value })} type="text" className="form-control floating" placeholder="User Id" />
+                                    <input onChange={e => setValues({ ...values, email: e.target.value })} name="email" type="email" placeholder="Email" required className="form-control floating" />
                                 </div>
                                 <div style={{ marginTop: '25px' }} className="mb-3 form-focus">
-                                    <label className="focus-label">Password</label>
                                     <input onChange={e => setValues({ ...values, password: e.target.value })} type="password" className="form-control floating" placeholder="Password"
                                         onKeyDown={handleKeyPress} />
                                 </div>
