@@ -69,9 +69,6 @@ function Header() {
                 <a href="/gallery" className="dropdown-item">
                   Our Gallery
                 </a>
-                <a href="/attractions" className="dropdown-item">
-                  Attractions
-                </a>
                 <a href="/package" className="dropdown-item">
                   Ticket Packages
                 </a>
@@ -85,7 +82,7 @@ function Header() {
             </a>
           </div>
           <div className="team-icon d-none d-xl-flex justify-content-center me-3">
-            <a className="btn btn-square btn-light rounded-circle mx-1" href="#!">
+            <a className="btn btn-square btn-light rounded-circle mx-1" href="https://www.facebook.com/nguyenkhanh454">
               <i className="fab fa-facebook-f"></i>
             </a>
             <a className="btn btn-square btn-light rounded-circle mx-1" href="#!">

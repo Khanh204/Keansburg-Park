@@ -5,7 +5,7 @@ function Gallery(){
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style={{maxWidth: '800px'}}>
                     <h4 class="text-primary">Our Gallery</h4>
                     <h1 class="display-5 mb-4">Captured Moments In Waterland</h1>
-                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                    <p class="mb-0">Capture unforgettable memories. Our gallery showcases the fun and excitement of Waterland Park. From thrilling water slides to relaxing poolside moments, relive the magic of your visit.
                     </p>
                 </div>
                 <div class="row g-4">

@@ -7,7 +7,7 @@ return(
                         <div class="packages-item h-100">
                             <h4 class="text-primary">Ticket Packages</h4>
                             <h1 class="display-5 mb-4">Choose The Best Packages For Your Family</h1>
-                            <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                            <p class="mb-4">Our family packages are designed to provide fun for everyone aa aa aaa aaa aaa aa aaa aaa aaaa aa aaa aaa aaa aa aa a a aa a aa aa aa aaa aa aaa aaaa aa aa aaaa aaa aaa aaa  aaa aa aa aa aa aa  aaaaaaaaaaaaaaaaaaaaaa, from the youngest to the oldest. With a variety of exciting attractions and relaxing amenities, you're sure to create lasting memories.
                             </p>
                             <p><i class="fa fa-check text-primary me-2"></i>Best Waterpark in the world</p>
                             <p><i class="fa fa-check text-primary me-2"></i>Best Packages For Your Family</p>
@@ -20,7 +20,7 @@ return(
                         <div class="pricing-item bg-dark rounded text-center p-5 h-100">
                             <div class="pb-4 border-bottom">
                                 <h2 class="mb-4 text-primary">Family Packages</h2>
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, dolorum!</p>
+                                <p class="mb-4">The Family Packages is perfect for a family outing. With this package, your family will experience the full range of activities at the water park, from thrilling rides to relaxing areas. Includes admission for the entire family, rental of two private cabanas, free drinks, and many other attractive offers.</p>
                                 <h2 class="mb-0 text-primary">$260,90<span class="text-body fs-5 fw-normal">/family</span></h2>
                             </div>
                             <div class="py-4">
@@ -37,7 +37,7 @@ return(
                         <div class="pricing-item bg-primary rounded text-center p-5 h-100">
                             <div class="pb-4 border-bottom">
                                 <h2 class="text-dark mb-4">Basic Packages</h2>
-                                <p class="text-white mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, dolorum!</p>
+                                <p class="text-white mb-4">The Basic Package is an economical choice for those who want to enjoy a day of fun at the water park. a aaaaa aaaaa aa aa aaa aaaa aaaaa aaaa aa a a aaaaaaaaa aaaaa aaa aaa aaaa aa aaaa a a aaaa aa aaaa aaaa aaaa aaaaa aaaa aaa aaaaa aqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaThe package includes admission, rental of a small cabana, free drinks,aa aaa aaa aaaa aaaa aa aa aaaa and many other benefits.</p>
                                 <h2 class="text-dark mb-0">$60,90<span class="text-white fs-5 fw-normal">/person</span></h2>
                             </div>
                             <div class="text-white py-4">

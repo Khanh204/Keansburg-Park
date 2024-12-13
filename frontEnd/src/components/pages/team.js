@@ -27,7 +27,7 @@ return(
                             <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-linkedin-in"></i></a>
                             <a class="btn btn-primary btn-sm-square rounded-circle me-0" href=""><i class="fab fa-instagram"></i></a>
                         </div>
-                        <p class="text-center mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, quibusdam eveniet itaque provident sequi deserunt.
+                        <p class="text-center mb-0">David James is our lead lifeguard and water safety expert. With over 10 years of experience, David ensures the safety and well-being of all our visitors. When he's not on duty, he loves teaching swimming lessons and organizing community water safety workshops.
                         </p>
                     </div>
                 </div>
@@ -50,7 +50,7 @@ return(
                             <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-linkedin-in"></i></a>
                             <a class="btn btn-primary btn-sm-square rounded-circle me-0" href=""><i class="fab fa-instagram"></i></a>
                         </div>
-                        <p class="text-center mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, quibusdam eveniet itaque provident sequi deserunt.
+                        <p class="text-center mb-0">William John is our operations manager, responsible for the smooth running of the park's daily activities. His passion for customer service and efficiency keeps our guests happy and our facilities in top shape. Outside work, William enjoys kayaking and exploring new adventure sports.
                         </p>
                     </div>
                 </div>
@@ -73,7 +73,7 @@ return(
                             <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-linkedin-in"></i></a>
                             <a class="btn btn-primary btn-sm-square rounded-circle me-0" href=""><i class="fab fa-instagram"></i></a>
                         </div>
-                        <p class="text-center mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, quibusdam eveniet itaque provident sequi deserunt.
+                        <p class="text-center mb-0">Michael John is our head of maintenance, making sure all attractions and facilities are in pristine condition. His expertise in engineering and love for waterparks make him an invaluable part of our team. Michael is also an avid scuba diver and enjoys spending time underwater.
                         </p>
                     </div>
                 </div>

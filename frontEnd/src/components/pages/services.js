@@ -8,7 +8,7 @@ function Service() {
                     <h4 className="text-primary">Our Service</h4>
                     <h1 className="display-5 text-white mb-4">Explore Waterland Park service</h1>
                     <p className="mb-0 text-white">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                    Discover a world of aquatic adventures at Waterland Park! Cool off in our sparkling pools, soar down exhilarating water slides, and relax in our private cabanas. With something for everyone, our park is the perfect destination for a fun-filled day.
                     </p>
                 </div>
                 <div className="row g-4">
@@ -38,7 +38,7 @@ function Service() {
                                     <i className="fas fa-home fa-4x"></i>
                                 </div>
                                 <a href="#" className="h4 d-inline-block mb-3">Private Gazebo</a>
-                                <p className="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet vel beatae numquam.</p>
+                                <p className="mb-0">Rent a private gazebo for a secluded oasis amidst the excitement. Perfect for families or groups seeking a tranquil retreat.</p>
                             </div>
                         </div>
                     </div>
@@ -49,7 +49,7 @@ function Service() {
                                     <i className="fas fa-utensils fa-4x"></i>
                                 </div>
                                 <a href="#" className="h4 d-inline-block mb-3">Delicious Food</a>
-                                <p className="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet vel beatae numquam.</p>
+                                <p className="mb-0">Enjoy a variety of tasty treats and refreshing beverages at our on-site food court. From juicy burgers to cool ice cream, we have something to satisfy every craving.</p>
                             </div>
                         </div>
                     </div>
@@ -60,7 +60,7 @@ function Service() {
                                     <i className="fas fa-door-closed fa-4x"></i>
                                 </div>
                                 <a href="#" className="h4 d-inline-block mb-3">Safety Lockers</a>
-                                <p className="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet vel beatae numquam.</p>
+                                <p className="mb-0">Secure your belongings in our convenient safety lockers and enjoy peace of mind while you play.</p>
                             </div>
                         </div>
                     </div>
@@ -71,7 +71,7 @@ function Service() {
                                     <i className="fas fa-swimming-pool fa-4x"></i>
                                 </div>
                                 <a href="#" className="h4 d-inline-block mb-3">River Rides</a>
-                                <p className="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet vel beatae numquam.</p>
+                                <p className="mb-0">Float along our lazy river and soak up the sun. It's the perfect way to relax and unwind.</p>
                             </div>
                         </div>
                     </div>
@@ -86,7 +86,7 @@ function Service() {
                                 <div className="feature-content p-4">
                                     <div className="feature-content-inner">
                                         <h4 className="text-white">Best Pools</h4>
-                                        <p className="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis porro soluta voluptatum laborum mollitia blanditiis suscipit,</p>
+                                        <p className="text-white">Immerse yourself in the ultimate relaxation with our pristine pools, perfect for families and leisure seekers. Enjoy crystal-clear water and a serene atmosphere designed to make every swim unforgettable.</p>
                                         <a href="#" className="btn btn-primary rounded-pill py-2 px-4">Read More <i className="fa fa-arrow-right ms-1"></i></a>
                                     </div>
                                 </div>
@@ -98,7 +98,7 @@ function Service() {
                                 <div className="feature-content p-4">
                                     <div className="feature-content-inner">
                                         <h4 className="text-white">Waterslides</h4>
-                                        <p className="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis porro soluta voluptatum laborum mollitia blanditiis suscipit,</p>
+                                        <p className="text-white">Feel the rush of adrenaline as you glide down our thrilling waterslides, designed for fun lovers of all ages. From twisting turns to high-speed drops, there's a slide for everyone.</p>
                                         <a href="#" className="btn btn-primary rounded-pill py-2 px-4">Read More <i className="fa fa-arrow-right ms-1"></i></a>
                                     </div>
                                 </div>
@@ -110,7 +110,7 @@ function Service() {
                                 <div className="feature-content p-4">
                                     <div className="feature-content-inner">
                                         <h4 className="text-white">River Rides</h4>
-                                        <p className="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis porro soluta voluptatum laborum mollitia blanditiis suscipit,</p>
+                                        <p className="text-white">Take a relaxing journey on our scenic river rides. Drift through gentle currents and enjoy breathtaking views, ideal for unwinding with friends and family.</p>
                                         <a href="#" className="btn btn-primary rounded-pill py-2 px-4">Read More <i className="fa fa-arrow-right ms-1"></i></a>
                                     </div>
                                 </div>

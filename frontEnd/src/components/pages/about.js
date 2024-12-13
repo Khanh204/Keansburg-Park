@@ -7,7 +7,7 @@ function About (){
                         <div>
                             <h4 className="text-primary">About Waterland</h4>
                             <h1 className="display-5 mb-4">The Best Theme & Amusement Park For Your Family</h1>
-                            <p className="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis eligendi illum inventore maiores incidunt vero id. Est ipsam, distinctio veritatis earum inventore ab fugit officiis ut ullam, laudantium facere sapiente?
+                            <p className="mb-5">Waterland is the best theme and amusement park for families, offering 20 years of exceptional service and countless happy memories. Dive into a world of fun, relaxation, and excitement tailored to all ages.
                             </p>
                             <div className="row g-4">
                                 <div className="col-md-6">
@@ -15,7 +15,7 @@ function About (){
                                         <div className="me-3"><i className="fas fa-glass-cheers fa-3x text-primary"></i></div>
                                         <div>
                                             <h4>Food & Drinks</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                            <p>Enjoy a variety of delicious food and refreshing drinks available throughout the park to keep you energized and refreshed.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -24,7 +24,7 @@ function About (){
                                         <div className="me-3"><i className="fas fa-dot-circle fa-3x text-primary"></i></div>
                                         <div>
                                             <h4>Many Attractions</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                            <p>Explore an array of thrilling rides and attractions that promise endless fun and excitement for everyone in the family.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -33,7 +33,7 @@ function About (){
                                         <div className="me-3"><i className="fas fa-hand-holding-usd fa-3x text-primary"></i></div>
                                         <div>
                                             <h4>Affordable Price</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                            <p>Experience premium entertainment at budget-friendly prices, making Waterland accessible to all.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -42,7 +42,7 @@ function About (){
                                         <div className="me-3"><i className="fas fa-lock fa-3x text-primary"></i></div>
                                         <div>
                                             <h4>Safety Lockers</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                            <p>Keep your belongings safe and secure with our convenient locker facilities, so you can enjoy your day worry-free.</p>
                                         </div>
                                     </div>
                                 </div>

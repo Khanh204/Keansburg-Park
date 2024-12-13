@@ -6,7 +6,7 @@ function Feature(){
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style={{maxWidth:'800px'}}>
                 <h4 class="text-primary">Our Features</h4>
                 <h1 class="display-5 mb-4">Explore Waterland Park Best Features</h1>
-                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                <p class="mb-0">Discover the exciting attractions and amenities that make Waterland Park the perfect destination for fun and adventure. From exhilarating slides and scenic river rides to the best pools for relaxation, there’s something here for everyone to enjoy. Let’s dive into the highlights that set us apart!
                 </p>
             </div>
             <div class="row g-4">
@@ -16,7 +16,7 @@ function Feature(){
                         <div class="feature-content p-4">
                             <div class="feature-content-inner">
                                 <h4 class="text-white">Best Pools</h4>
-                                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis porro soluta voluptatum laborum mollitia blanditiis suscipit,
+                                <p class="text-white">Immerse yourself in the ultimate relaxation with our pristine pools, perfect for families and leisure seekers. Enjoy crystal-clear water and a serene atmosphere designed to make every swim unforgettable.
                                 </p>
                                 <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More <i class="fa fa-arrow-right ms-1"></i></a>
                             </div>
@@ -30,7 +30,7 @@ function Feature(){
                         <div class="feature-content p-4">
                             <div class="feature-content-inner">
                                 <h4 class="text-white">Waterslides</h4>
-                                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis porro soluta voluptatum laborum mollitia blanditiis suscipit,
+                                <p class="text-white">Feel the rush of adrenaline as you glide down our thrilling waterslides, designed for fun lovers of all ages. From twisting turns to high-speed drops, there's a slide for everyone.
                                 </p>
                                 <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More <i class="fa fa-arrow-right ms-1"></i></a>
                             </div>
@@ -44,7 +44,7 @@ function Feature(){
                         <div class="feature-content p-4">
                             <div class="feature-content-inner">
                                 <h4 class="text-white">River Rides</h4>
-                                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis porro soluta voluptatum laborum mollitia blanditiis suscipit,
+                                <p class="text-white">Take a relaxing journey on our scenic river rides. Drift through gentle currents and enjoy breathtaking views, ideal for unwinding with friends and family.
                                 </p>
                                 <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More <i class="fa fa-arrow-right ms-1"></i></a>
                             </div>

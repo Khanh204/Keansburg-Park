@@ -313,7 +313,7 @@ function Home(){
                         <div class="pricing-item bg-primary rounded text-center p-5 h-100">
                             <div class="pb-4 border-bottom">
                                 <h2 class="text-dark mb-4">Basic Packages</h2>
-                                <p class="text-white mb-4">The Basic Package is an economical choice for those who want to enjoy a day of fun at the water park. The package includes admission, rental of a small cabana, free drinks, and many other benefits.</p>
+                                <p class="text-white mb-4">The Basic Package is an economical choice for those who want to enjoy a day of fun at the water park. a aaaaa aaaaa aa aa aaa aaaa aaaaa aaaa aa a a aaaaaaaaa aaaaa aaa aaa aaaa aa aaaa a a aaaa aa aaaa aaaa aaaa aaaaa aaaa aaa aaaaa aqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaThe package includes admission, rental of a small cabana, free drinks,aa aaa aaa aaaa aaaa aa aa aaaa and many other benefits.</p>
                                 <h2 class="text-dark mb-0">$60,90<span class="text-white fs-5 fw-normal">/person</span></h2>
                             </div>
                             <div class="text-white py-4">
@@ -328,41 +328,7 @@ function Home(){
                 </div>
             </div>
         </div>
-        <div class="container-fluid attractions py-5">
-            <div class="container attractions-section py-5" style={{ textAlign: "justify" }}>
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style={{maxWidth:'800px'}}>
-                    <h4 class="text-primary">Attractions</h4>
-                    <h1 class="display-5 text-white mb-4">Explore WaterLand Park Attractions</h1>
-                    <p class="text-white mb-0">Get ready to make a splash! Our water park is packed with thrilling slides, lazy rivers, wave pools, and more. Whether you're seeking adrenaline-pumping adventures or a relaxing day in the sun, we have something for everyone. Come experience the ultimate water playground!
-                    </p>
-                </div>
-                <div class="owl-carousel attractions-carousel wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="attractions-item wow fadeInUp" data-wow-delay="0.2s">
-                    <img src="img/attraction-1.jpg" class="img-fluid rounded w-100" alt=""/>
-                        <a href="#" class="attractions-name">Roller Coaster</a>
-                    </div>
-                    <div class="owl-carousel attractions-carousel wow fadeInUp" data-wow-delay="0.1s">
-                <div class="attractions-item wow fadeInUp" data-wow-delay="0.2s">
-                    <img src="img/attraction-2.jpg" class="img-fluid rounded w-100" alt=""/>
-                         <a href="#" class="attractions-name">Carousel</a>
-                    </div>
-                </div>
-                    <div class="attractions-item wow fadeInUp" data-wow-delay="0.6s">
-                        <img src="img/attraction-3.jpg" class="img-fluid rounded w-100" alt=""/>
-                        <a href="#" class="attractions-name">Arcade Game</a>
-                    </div>
-                    <div class="attractions-item wow fadeInUp" data-wow-delay="0.8s">
-                        <img src="img/attraction-4.jpg" class="img-fluid rounded w-100" alt=""/>
-                        <a href="#" class="attractions-name">Hanging Carousel</a>
-                    </div>
-                    <div className="attractions-item wow fadeInUp" data-wow-delay="1s">
-                        <img src="img/attraction-2.jpg"className="img-fluid rounded w-100"alt=""/>
-                            <a href="#" className="attractions-name">Carousel</a>
-                    </div>
-
-                </div>
-            </div>
-        </div>
+      
 
         <div class="container-fluid gallery pb-5">
             <div class="container pb-5" style={{ textAlign: "justify" }}>
@@ -537,7 +503,7 @@ function Home(){
                                     <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-linkedin-in"></i></a>
                                     <a class="btn btn-primary btn-sm-square rounded-circle me-0" href=""><i class="fab fa-instagram"></i></a>
                                 </div>
-                                <p class="text-center mb-0">William John is our operations manager, responsible for the smooth running of the park's daily activities. His passion for customer service and efficiency keeps our guests happy and our facilities in top shape. Outside work, William enjoys kayaking and exploring new adventure sports.
+                                <p class="text-center mb-0">William John is our operations manager, responsible for the smooth running of the park's daily activities. His passion for customer service and efficiency keeps our guests happy and our facilities in top shape. Outside work, William enjoys .
                                 </p>
                             </div>
                         </div>
