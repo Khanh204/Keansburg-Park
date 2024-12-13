@@ -1,99 +1,60 @@
-function About (){
-    return(
-        <div className="container-fluid about pb-5">
-            <div className="container pb-5">
-                <div className="row g-5">
-                    <div className="col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
-                        <div>
-                            <h4 className="text-primary">About Waterland</h4>
-                            <h1 className="display-5 mb-4">The Best Theme & Amusement Park For Your Family</h1>
-                            <p className="mb-5">Waterland is the best theme and amusement park for families, offering 20 years of exceptional service and countless happy memories. Dive into a world of fun, relaxation, and excitement tailored to all ages.
-                            </p>
-                            <div className="row g-4">
-                                <div className="col-md-6">
-                                    <div className="d-flex">
-                                        <div className="me-3"><i className="fas fa-glass-cheers fa-3x text-primary"></i></div>
-                                        <div>
-                                            <h4>Food & Drinks</h4>
-                                            <p>Enjoy a variety of delicious food and refreshing drinks available throughout the park to keep you energized and refreshed.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-md-6">
-                                    <div className="d-flex">
-                                        <div className="me-3"><i className="fas fa-dot-circle fa-3x text-primary"></i></div>
-                                        <div>
-                                            <h4>Many Attractions</h4>
-                                            <p>Explore an array of thrilling rides and attractions that promise endless fun and excitement for everyone in the family.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-md-6">
-                                    <div className="d-flex">
-                                        <div className="me-3"><i className="fas fa-hand-holding-usd fa-3x text-primary"></i></div>
-                                        <div>
-                                            <h4>Affordable Price</h4>
-                                            <p>Experience premium entertainment at budget-friendly prices, making Waterland accessible to all.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-md-6">
-                                    <div className="d-flex">
-                                        <div className="me-3"><i className="fas fa-lock fa-3x text-primary"></i></div>
-                                        <div>
-                                            <h4>Safety Lockers</h4>
-                                            <p>Keep your belongings safe and secure with our convenient locker facilities, so you can enjoy your day worry-free.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-xl-6 wow fadeInUp" data-wow-delay="0.4s">
-                        <div className="position-relative rounded">
-                            <div className="rounded" style={{marginTop: '40px'}}>
-                                <div className="row g-0">
-                                    <div className="col-lg-12">
-                                        <div className="rounded mb-4">
-                                            <img src="img/about.jpg" className="img-fluid rounded w-100" alt=""/>
-                                        </div>
-                                        <div className="row gx-4 gy-0">
-                                            <div className="col-6">
-                                                <div className="counter-item bg-primary rounded text-center p-4 h-100">
-                                                    <div className="counter-item-icon mx-auto mb-3">
-                                                        <i className="fas fa-thumbs-up fa-3x text-white"></i>
-                                                    </div>
-                                                    <div className="counter-counting mb-3">
-                                                        <span className="text-white fs-2 fw-bold" data-toggle="counter-up">150</span>
-                                                        <span className="h1 fw-bold text-white">K +</span>
-                                                    </div>
-                                                    <h5 className="text-white mb-0">Happy Visitors</h5>
-                                                </div>
-                                            </div>
-                                            <div className="col-6">
-                                                <div className="counter-item bg-dark rounded text-center p-4 h-100">
-                                                    <div className="counter-item-icon mx-auto mb-3">
-                                                        <i className="fas fa-certificate fa-3x text-white"></i>
-                                                    </div>
-                                                    <div className="counter-counting mb-3">
-                                                        <span className="text-white fs-2 fw-bold" data-toggle="counter-up">122</span>
-                                                        <span className="h1 fw-bold text-white"> +</span>
-                                                    </div>
-                                                    <h5 className="text-white mb-0">Awwards Winning</h5>
-                                                    </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="rounded bg-primary p-4 position-absolute d-flex justify-content-center" style={{width: '90%',height: '80px',top: '-40px',left: '50%',transform: 'translateX(-50%)'}}>
-                                <h3 className="mb-0 text-white">20 Years Experiance</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+function About() {
+  return (
+    <section className="position-relative min-vh-100 overflow-hidden bg-white">
+      {/* Green background shape */}
+      <div
+        className="position-absolute top-0 start-0 h-100 w-45 bg-success"
+        style={{ width: "30%" }}
+      ></div>
+
+      {/* Main content container */}
+      <div className="position-relative container-fluid d-flex align-items-center justify-content-between py-5">
+        {/* Left image */}
+        <div
+          className="position-relative"
+          style={{ width: "45%", height: "600px" }}
+        >
+          <img
+            src="https://www.vickerypediatrics.com/wp-content/uploads/2018/07/child-swimming-safely.jpg"
+            alt="Child smiling at pool"
+            className="p-4 img-fluid h-100 w-100 object-fit-cover"
+          />
         </div>
-    )
+        {/* Center image with shadow */}
+        <div className="p-3 position-relative" style={{ width: "30%" }}>
+          <div
+            className="overflow-hidden rounded shadow-lg"
+            style={{ width: "100%", height: "300px" }}
+          >
+            <img
+              src="https://images03.nicepage.com/c461c07a441a5d220e8feb1a/ff83bad440975dc9ac080558/billionphotos-1857502.jpg"
+              alt="Child on pool float"
+              className="img-fluid w-100 h-100 object-fit-cover"
+            />
+          </div>
+        </div>
+        {/* Right content */}
+        <div className="flex-column" style={{ width: "25%" }}>
+          <h2 className="fs-1 fw-normal mb-3">
+            Summer Waves <span className="fw-bold">Water Park</span>
+          </h2>
+          <p className="text-muted mb-4">
+            Nature's Revenge stands 40 feet tall, and boasts two fierce slides:
+            The Hurricane and The Tornado. Each slide twists and turns, sending
+            riders into a spiral before dropping them off with a splash in the
+            catch pool.
+          </p>
+          <a
+            href="#"
+            className="btn btn-success text-dark px-4 py-2"
+            style={{ backgroundColor: "#98E93A", borderColor: "#98E93A" }}
+          >
+            LEARN MORE
+          </a>
+        </div>
+      </div>
+    </section>
+  );
 }
+
 export default About;

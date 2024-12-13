@@ -1,0 +1,90 @@
+/* Tổng quan của section */
+.about-section {
+  position: relative;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+/* Hình nền */
+.background-shape {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #ffe5d1;
+  z-index: 0;
+}
+
+/* Bố cục chính */
+.layout {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  z-index: 1;
+}
+
+/* Hàng chứa cột */
+.row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Cột bên phải: Hình ảnh */
+.right-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.featured-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Cột bên trái: Nội dung */
+.left-content {
+  flex: 1;
+  max-width: 50%;
+  text-align: left;
+}
+
+.title {
+  font-family: "Roboto Slab", serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.description {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+/* Nút bấm */
+.learn-more-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff6f61;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.learn-more-button:hover {
+  background-color: #e05a50;
+}
