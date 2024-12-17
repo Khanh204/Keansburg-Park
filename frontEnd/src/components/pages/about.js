@@ -44,13 +44,7 @@ function About() {
             riders into a spiral before dropping them off with a splash in the
             catch pool.
           </p>
-          <a
-            href="#"
-            className="btn btn-success text-dark px-4 py-2"
-            style={{ backgroundColor: "#98E93A", borderColor: "#98E93A" }}
-          >
-            LEARN MORE
-          </a>
+         
         </div>
       </div>
     </section>

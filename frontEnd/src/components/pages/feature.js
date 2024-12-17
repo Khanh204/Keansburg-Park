@@ -18,7 +18,6 @@ function Feature(){
                                 <h4 class="text-white">Best Pools</h4>
                                 <p class="text-white">Immerse yourself in the ultimate relaxation with our pristine pools, perfect for families and leisure seekers. Enjoy crystal-clear water and a serene atmosphere designed to make every swim unforgettable.
                                 </p>
-                                <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More <i class="fa fa-arrow-right ms-1"></i></a>
                             </div>
                         </div>
 
@@ -32,7 +31,6 @@ function Feature(){
                                 <h4 class="text-white">Waterslides</h4>
                                 <p class="text-white">Feel the rush of adrenaline as you glide down our thrilling waterslides, designed for fun lovers of all ages. From twisting turns to high-speed drops, there's a slide for everyone.
                                 </p>
-                                <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More <i class="fa fa-arrow-right ms-1"></i></a>
                             </div>
                         </div>
 
@@ -46,7 +44,6 @@ function Feature(){
                                 <h4 class="text-white">River Rides</h4>
                                 <p class="text-white">Take a relaxing journey on our scenic river rides. Drift through gentle currents and enjoy breathtaking views, ideal for unwinding with friends and family.
                                 </p>
-                                <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More <i class="fa fa-arrow-right ms-1"></i></a>
                             </div>
                         </div>
 

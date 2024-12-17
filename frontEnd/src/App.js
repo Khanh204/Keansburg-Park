@@ -14,7 +14,7 @@ import Attractions from './components/pages/attractions';
 import TicketPackages from './components/pages/ticketpackages';
 import Team from './components/pages/team';
 import Login from './components/pages/auth/login';
-
+import DetailBlog from './components/pages/detailblog';
 
 // import Logout from './components/pages/auth/logout';
 import Register from './components/pages/auth/register';
@@ -42,6 +42,7 @@ function App() {
           <Route path="/team" element={<Team />} />
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/detailblog" element={<DetailBlog />} />
           {/* <Route path="/logout" element={<Logout />} /> */}
         </Routes>
 

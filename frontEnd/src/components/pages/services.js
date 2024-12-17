@@ -75,12 +75,7 @@ function Service() {
                       Enjoy crystal-clear water and a serene atmosphere designed
                       to make every swim unforgettable.
                     </p>
-                    <a
-                      href="#"
-                      className="btn btn-primary rounded-pill py-2 px-4"
-                    >
-                      Read More <i className="fa fa-arrow-right ms-1"></i>
-                    </a>
+                   
                   </div>
                 </div>
               </div>
@@ -101,12 +96,7 @@ function Service() {
                       ages. From twisting turns to high-speed drops, there's a
                       slide for everyone.
                     </p>
-                    <a
-                      href="#"
-                      className="btn btn-primary rounded-pill py-2 px-4"
-                    >
-                      Read More <i className="fa fa-arrow-right ms-1"></i>
-                    </a>
+                   
                   </div>
                 </div>
               </div>
@@ -126,12 +116,7 @@ function Service() {
                       through gentle currents and enjoy breathtaking views,
                       ideal for unwinding with friends and family.
                     </p>
-                    <a
-                      href="#"
-                      className="btn btn-primary rounded-pill py-2 px-4"
-                    >
-                      Read More <i className="fa fa-arrow-right ms-1"></i>
-                    </a>
+                   
                   </div>
                 </div>
               </div>

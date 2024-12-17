@@ -33,7 +33,7 @@ function Home() {
                     Welcome To WaterLand
                   </h4>
                   <h1 className="display-4 text-uppercase text-white mb-4">
-                    The Biggest Theme & Amusement Park
+                    Keansburg Park
                   </h1>
                   <p className="mb-4 fs-5">
                     Experience endless fun and excitement at Waterland, the
@@ -202,9 +202,7 @@ function Home() {
                       Enjoy crystal-clear water and a serene atmosphere designed
                       to make every swim unforgettable.
                     </p>
-                    <a href="#" class="btn btn-primary rounded-pill py-2 px-4">
-                      Read More <i class="fa fa-arrow-right ms-1"></i>
-                    </a>
+                    
                   </div>
                 </div>
               </div>
@@ -225,9 +223,7 @@ function Home() {
                       ages. From twisting turns to high-speed drops, there's a
                       slide for everyone.
                     </p>
-                    <a href="#" class="btn btn-primary rounded-pill py-2 px-4">
-                      Read More <i class="fa fa-arrow-right ms-1"></i>
-                    </a>
+                  
                   </div>
                 </div>
               </div>
@@ -247,9 +243,7 @@ function Home() {
                       through gentle currents and enjoy breathtaking views,
                       ideal for unwinding with friends and family.
                     </p>
-                    <a href="#" class="btn btn-primary rounded-pill py-2 px-4">
-                      Read More <i class="fa fa-arrow-right ms-1"></i>
-                    </a>
+                   
                   </div>
                 </div>
               </div>
@@ -623,12 +617,8 @@ function Home() {
                   <h2 class="text-dark mb-4">Basic Packages</h2>
                   <p class="text-white mb-4">
                     The Basic Package is an economical choice for those who want
-                    to enjoy a day of fun at the water park. a aaaaa aaaaa aa aa
-                    aaa aaaa aaaaa aaaa aa a a aaaaaaaaa aaaaa aaa aaa aaaa aa
-                    aaaa a a aaaa aa aaaa aaaa aaaa aaaaa aaaa aaa aaaaa
-                    aqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaThe package includes
-                    admission, rental of a small cabana, free drinks,aa aaa aaa
-                    aaaa aaaa aa aa aaaa and many other benefits.
+                    to enjoy a day of fun at the water park.The package includes
+                    admission, rental of a small cabana, free drinks,and many other benefits.
                   </p>
                   <h2 class="text-dark mb-0">
                     $60,90<span class="text-white fs-5 fw-normal">/person</span>
@@ -804,7 +794,7 @@ function Home() {
             <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
               <div class="blog-item">
                 <div class="blog-img">
-                  <a href="#">
+                  <a href="/detailBlog">
                     <img
                       src="img/blog-2.jpg"
                       class="img-fluid w-100 rounded-top"
@@ -817,7 +807,7 @@ function Home() {
                   </div>
                 </div>
                 <div class="blog-content p-4">
-                  <a href="#" class="h4 d-inline-block mb-4">
+                  <a href="/detailBlog" class="h4 d-inline-block mb-4">
                     Why Children Dont Like Getting Out Of The Water
                   </a>
                   <p class="mb-4">
@@ -826,7 +816,7 @@ function Home() {
                     about their love for swimming and playing in water and some
                     tips to handle this situation.
                   </p>
-                  <a href="#" class="btn btn-primary rounded-pill py-2 px-4">
+                  <a href="/detailBlog" class="btn btn-primary rounded-pill py-2 px-4">
                     Read More <i class="fas fa-arrow-right ms-2"></i>
                   </a>
                 </div>
@@ -835,7 +825,7 @@ function Home() {
             <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
               <div class="blog-item">
                 <div class="blog-img">
-                  <a href="#">
+                  <a href="/detailBlog">
                     <img
                       src="img/blog-3.jpg"
                       class="img-fluid w-100 rounded-top"
@@ -848,7 +838,7 @@ function Home() {
                   </div>
                 </div>
                 <div class="blog-content p-4">
-                  <a href="#" class="h4 d-inline-block mb-4">
+                  <a href="/detailBlog" class="h4 d-inline-block mb-4">
                     5 Ways To Enjoy Waterland This Spring Break
                   </a>
                   <p class="mb-4">
@@ -856,7 +846,7 @@ function Home() {
                     From thrilling water rides to relaxing poolside cabanas,
                     find out how to make the most of your visit.
                   </p>
-                  <a href="#" class="btn btn-primary rounded-pill py-2 px-4">
+                  <a href="/detailBlog" class="btn btn-primary rounded-pill py-2 px-4">
                     Read More <i class="fas fa-arrow-right ms-2"></i>
                   </a>
                 </div>
@@ -865,7 +855,7 @@ function Home() {
             <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
               <div class="blog-item">
                 <div class="blog-img">
-                  <a href="#">
+                  <a href="/detailBlog">
                     <img
                       src="img/blog-1.jpg"
                       class="img-fluid w-100 rounded-top"
@@ -878,7 +868,7 @@ function Home() {
                   </div>
                 </div>
                 <div class="blog-content p-4">
-                  <a href="#" class="h4 d-inline-block mb-4">
+                  <a href="/detailBlog" class="h4 d-inline-block mb-4">
                     3 Tips for Your Family Spring Break at Amusement Park
                   </a>
                   <p class="mb-4">
@@ -887,7 +877,7 @@ function Home() {
                     memorable experience. From ride planning to meal breaks, get
                     ready for a fantastic trip.
                   </p>
-                  <a href="#" class="btn btn-primary rounded-pill py-2 px-4">
+                  <a href="/detailBlog" class="btn btn-primary rounded-pill py-2 px-4">
                     Read More <i class="fas fa-arrow-right ms-2"></i>
                   </a>
                 </div>

@@ -45,6 +45,10 @@ function Breadcrumb() {
         case '/order':
                     breadcrumbName = 'Order';
                 break;
+        case '/detailBlog':
+                    breadcrumbName = 'Blog Detail';
+                break;
+
 
 
         // Thêm các case khác nếu cần
