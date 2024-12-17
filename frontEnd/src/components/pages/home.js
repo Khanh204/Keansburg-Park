@@ -33,7 +33,7 @@ function Home() {
                     Welcome To WaterLand
                   </h4>
                   <h1 className="display-4 text-uppercase text-white mb-4">
-                    Keansburg Park
+                    Keansurg Park
                   </h1>
                   <p className="mb-4 fs-5">
                     Experience endless fun and excitement at Waterland, the
@@ -202,7 +202,6 @@ function Home() {
                       Enjoy crystal-clear water and a serene atmosphere designed
                       to make every swim unforgettable.
                     </p>
-                    
                   </div>
                 </div>
               </div>
@@ -223,7 +222,6 @@ function Home() {
                       ages. From twisting turns to high-speed drops, there's a
                       slide for everyone.
                     </p>
-                  
                   </div>
                 </div>
               </div>
@@ -243,7 +241,6 @@ function Home() {
                       through gentle currents and enjoy breathtaking views,
                       ideal for unwinding with friends and family.
                     </p>
-                   
                   </div>
                 </div>
               </div>
@@ -257,11 +254,9 @@ function Home() {
             <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
               <div>
                 <h4 class="text-primary">About Waterland</h4>
-                <h1 class="display-5 mb-4">
-                  The Best Theme & Amusement Park For Your Family
-                </h1>
+                <h1 class="display-5 mb-4">Amusement Park For Your Family</h1>
                 <p class="mb-5">
-                  Waterland is the best theme and amusement park for families,
+                  Waterland is the best and amusement park for families,
                   offering 20 years of exceptional service and countless happy
                   memories. Dive into a world of fun, relaxation, and excitement
                   tailored to all ages.
@@ -618,7 +613,8 @@ function Home() {
                   <p class="text-white mb-4">
                     The Basic Package is an economical choice for those who want
                     to enjoy a day of fun at the water park.The package includes
-                    admission, rental of a small cabana, free drinks,and many other benefits.
+                    admission, rental of a small cabana, free drinks,and many
+                    other benefits.
                   </p>
                   <h2 class="text-dark mb-0">
                     $60,90<span class="text-white fs-5 fw-normal">/person</span>
@@ -816,7 +812,10 @@ function Home() {
                     about their love for swimming and playing in water and some
                     tips to handle this situation.
                   </p>
-                  <a href="/detailBlog" class="btn btn-primary rounded-pill py-2 px-4">
+                  <a
+                    href="/detailBlog"
+                    class="btn btn-primary rounded-pill py-2 px-4"
+                  >
                     Read More <i class="fas fa-arrow-right ms-2"></i>
                   </a>
                 </div>
@@ -846,7 +845,10 @@ function Home() {
                     From thrilling water rides to relaxing poolside cabanas,
                     find out how to make the most of your visit.
                   </p>
-                  <a href="/detailBlog" class="btn btn-primary rounded-pill py-2 px-4">
+                  <a
+                    href="/detailBlog"
+                    class="btn btn-primary rounded-pill py-2 px-4"
+                  >
                     Read More <i class="fas fa-arrow-right ms-2"></i>
                   </a>
                 </div>
@@ -877,7 +879,10 @@ function Home() {
                     memorable experience. From ride planning to meal breaks, get
                     ready for a fantastic trip.
                   </p>
-                  <a href="/detailBlog" class="btn btn-primary rounded-pill py-2 px-4">
+                  <a
+                    href="/detailBlog"
+                    class="btn btn-primary rounded-pill py-2 px-4"
+                  >
                     Read More <i class="fas fa-arrow-right ms-2"></i>
                   </a>
                 </div>

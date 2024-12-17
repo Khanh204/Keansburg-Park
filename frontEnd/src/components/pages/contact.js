@@ -98,8 +98,7 @@ function Contact() {
                 <p className="mb-0">
                   The contact form is currently inactive. Get a functional and
                   working contact form with Ajax & PHP in a few minutes. Just
-                  copy and paste the files, add a little code and you're done.{" "}
-                 
+                  copy and paste the files, add a little code and you're done.
                 </p>
               </div>
               <div className="row g-4">
@@ -292,11 +291,22 @@ function Contact() {
         </div>
       </div>
       <div class="col-12 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="rounded">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.096484299949!2d105.77972177471445!3d21.028825087777456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab4cd376479b%3A0xbc2e0bb9db373ed2!2zOGEgVMO0biBUaOG6pXQgVGh1eeG6v3QsIE3hu7kgxJDDrG5oLCBD4bqndSBHaeG6pXksIEjDoCBO4buZaSAxMDAwMDAsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1733127139425!5m2!1svi!2s" width="600" height="450"
-                         style={{width:'100%',height:'350px',border:'0', allowfullscreen:"" ,loading:"lazy" ,referrerpolicy:"no-referrer-when-downgrade"}}></iframe>
-                        </div>
-                    </div>
+        <div class="rounded">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.096484299949!2d105.77972177471445!3d21.028825087777456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab4cd376479b%3A0xbc2e0bb9db373ed2!2zOGEgVMO0biBUaOG6pXQgVGh1eeG6v3QsIE3hu7kgxJDDrG5oLCBD4bqndSBHaeG6pXksIEjDoCBO4buZaSAxMDAwMDAsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1733127139425!5m2!1svi!2s"
+            width="600"
+            height="450"
+            style={{
+              width: "100%",
+              height: "350px",
+              border: "0",
+              allowfullscreen: "",
+              loading: "lazy",
+              referrerpolicy: "no-referrer-when-downgrade",
+            }}
+          ></iframe>
+        </div>
+      </div>
     </div>
   );
 }
