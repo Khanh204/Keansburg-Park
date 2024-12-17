@@ -33,7 +33,7 @@ function Home() {
                     Welcome To WaterLand
                   </h4>
                   <h1 className="display-4 text-uppercase text-white mb-4">
-                    The Biggest Theme & Amusement Park
+                    Keansurg Park
                   </h1>
                   <p className="mb-4 fs-5">
                     Experience endless fun and excitement at Waterland, the
@@ -263,11 +263,9 @@ function Home() {
             <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
               <div>
                 <h4 class="text-primary">About Waterland</h4>
-                <h1 class="display-5 mb-4">
-                  The Best Theme & Amusement Park For Your Family
-                </h1>
+                <h1 class="display-5 mb-4">Amusement Park For Your Family</h1>
                 <p class="mb-5">
-                  Waterland is the best theme and amusement park for families,
+                  Waterland is the best and amusement park for families,
                   offering 20 years of exceptional service and countless happy
                   memories. Dive into a world of fun, relaxation, and excitement
                   tailored to all ages.

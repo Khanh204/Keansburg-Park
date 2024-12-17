@@ -98,14 +98,7 @@ function Contact() {
                 <p className="mb-0">
                   The contact form is currently inactive. Get a functional and
                   working contact form with Ajax & PHP in a few minutes. Just
-                  copy and paste the files, add a little code and you're done.{" "}
-                  <a
-                    className="text-primary fw-bold"
-                    href="https://htmlcodex.com/contact-form"
-                  >
-                    Download Now
-                  </a>
-                  .
+                  copy and paste the files, add a little code and you're done. .
                 </p>
               </div>
               <div className="row g-4">
